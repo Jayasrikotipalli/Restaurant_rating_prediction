@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zomato Restaurent rating prediction</title>
+</head>
+<body>
+  <h2>Enter the inputs </h2>
+
+  <form action="/predict" method="POST">
+    <label for="online_order">online_order:</label>
+    <input type='text' id="online_order" name="online_order" required><br><br>
+
+    <label for="book table">book table:</label>
+    <input  type='text' id="book table" name="book table"  required><br><br>
+
+    <label for="location">location:</label>
+    <input   type = 'text' id="location"name="location" required><br><br>
+
+    <label for="rest_type">rest_type:</label>
+    <input type='text' id="rest_type" name="rest_type" required><br><br>
+
+    <label for="dish_liked">dish_liked:</label>
+    <input type='text' id="dish_liked" name="dish_liked" required><br><br>
+
+    <label for="cuisines">cuisines :</label>
+    <input type='text' id="cuisines" name="cuisines" required><br><br>
+
+    <label for="approx_cost(for two people)">approx_cost(for two people):</label>
+    <input type='text' id="approx_cost(for two people)" name="approx_cost(for two people)" required><br><br>
+
+    <label for="reviews_list"> reviews_list:</label>
+    <input type='text' id="reviews_list" name="reviews_list" required><br><br>
+
+    <label for="menu_item">menu_item:</label>
+    <input type='text' id="menu_item" name="menu_item" required><br><br>
+
+    <label for="listed_in(type)">listed_in(type):</label>
+    <input type='text' id="listed_in(type)" name="listed_in(type)"  required><br><br>
+
+
+    <input type="submit" value="Predict">
+  </form>
+
+</body>
+</html>
